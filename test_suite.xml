@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="5" name="Suite">
+ 
+  <test name="TesitingHomePageHover">
+    <classes>
+      <class name="tests.HomePageTest"/>
+    </classes>
+  </test> <!-- websiteTest -->
+  
+  <test name="NavigationToPSD_ID5andButtons">
+    <classes>
+      <class name="tests.SummerDressesTest"/>
+      <class name="tests.PrintedSummerDress_ID5Test"/>
+    </classes>
+  </test> <!-- websiteTest -->
+  
+  <test name="TestingCartContentWithUserRegistration">
+    <classes>
+     <class name="tests.CartTest"/>
+     <class name="tests.RegisterTest"/>
+    </classes>
+  </test> <!-- websiteTest -->
+ 
+ <test name="TestingRegistrationAndSingingIn">
+    <classes> 
+      <class name="tests.RegisterForm30UsersTest"/>
+      <class name="tests.SignInTest"/>
+    </classes>
+  </test> <!-- websiteTest -->
+</suite> <!-- Suite -->
